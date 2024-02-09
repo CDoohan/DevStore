@@ -7,9 +7,9 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    fontFamily:{
-      sans: "--font-inter"
-    }
+    fontFamily: {
+      sans: 'var(--font-inter)',
+    },
   },
   plugins: [],
 }
