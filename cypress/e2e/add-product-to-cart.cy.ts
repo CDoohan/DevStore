@@ -1,5 +1,6 @@
 describe('add product to cart', () => {
   beforeEach(() => {
+    console.log('Home ', process.env.APP_URL)
     cy.visit('/')
   })
 
